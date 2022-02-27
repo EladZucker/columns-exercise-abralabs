@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #0e1649;
+    --secondary-color: #ff9f00;
+    --black-color: #1c1c1c;
+}
+
+h1 {
+    font-family: Times New Roman;
+    font-size: 72px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.44px;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+button {
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: var(--secondary-color);
+    font-family: Assistant;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;;
+}
+
+.abra-labs-logo {
+    background-image: url(assets/logo.png);
+    width: 258px;
+    height: 64px;
+}
+
+.subtitle {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--black-color);
+}
+
+.small-top-margin {
+    margin-top: 16px;
+}
+
+.mid-top-margin {
+    margin-top: 32px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-color)
+}
